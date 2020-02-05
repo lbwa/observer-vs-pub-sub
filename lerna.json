@@ -10,6 +10,14 @@
       "npmClientArgs": [
         "--frozen-lockfile"
       ]
+    },
+    "publish": {
+      "ignoreChanges": [
+        "ignored-file",
+        "*.md"
+      ],
+      "message": "chore(release): publish",
+      "registry": "https://registry.npmjs.org/"
     }
   }
 }
