@@ -1,0 +1,37 @@
+{
+  "name": "observer-vs-pub-sub",
+  "private": true,
+  "version": "0.1.0",
+  "description": "differences between observer pattern and publish-subscribe pattern",
+  "workspaces": [
+    "packages/*"
+  ],
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"no test\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lbwa/observer-vs-pub-sub.git"
+  },
+  "keywords": [
+    "observer",
+    "publish-subscribe"
+  ],
+  "author": "Bowen <vnode@outlook.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lbwa/observer-vs-pub-sub/issues"
+  },
+  "homepage": "https://github.com/lbwa/observer-vs-pub-sub#readme",
+  "prettier": {
+    "semi": false,
+    "tabWidth": 2,
+    "printWidth": 80,
+    "singleQuote": true,
+    "trailingComma": "none"
+  },
+  "devDependencies": {
+    "lerna": "^3.20.2"
+  }
+}
