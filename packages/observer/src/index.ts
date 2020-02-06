@@ -11,6 +11,7 @@
 /**
  * @observer
  * @duty a list of objects depends on Subject
+ * use built-it Set object to prevent duplicate observer.
  */
 class Observers extends Set {}
 
