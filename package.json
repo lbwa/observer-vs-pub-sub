@@ -9,7 +9,9 @@
   "main": "index.js",
   "scripts": {
     "bootstrap": "npx lerna bootstrap",
-    "test": "echo \"no test\" && exit 1"
+    "test": "npm run test:observer && npm run test:pub-sub",
+    "test:observer": "cd packages/observer && npm run test",
+    "test:pub-sub": "cd packages/pub-sub && npm run test"
   },
   "repository": {
     "type": "git",

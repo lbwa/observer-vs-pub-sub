@@ -1,4 +1,10 @@
-# Observer vs Pub-Sub pattern
+<h1 align="center">Observer vs Pub-Sub pattern</h1>
+
+<p align="center">
+  <a href="https://github.com/lbwa/observer-vs-pub-sub/actions">
+    <img alt="unit tests" src="https://github.com/lbwa/observer-vs-pub-sub/workflows/Unit%20tests/badge.svg">
+  </a>
+</p>
 
 > Differences between [observer pattern][wiki-observer-pattern] and [publish-subscribe pattern][wiki-publish-subscribe-pattern].
 
@@ -18,8 +24,13 @@ This repository has included 2 kinds of design patterns in the `/packages` direc
 - observer pattern
 
   ```bash
-  cd packages/observer
-  yarn test
+  yarn test:observer
+  ```
+
+- publish-subscribe pattern
+
+  ```bash
+  yarn test:pub-sub
   ```
 
 ## Acknowledgement
