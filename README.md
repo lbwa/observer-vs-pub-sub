@@ -21,13 +21,19 @@ This repository has included 2 kinds of design patterns in the `/packages` direc
 
 ## Test
 
-- observer pattern
+- Run all tests
+
+  ```bash
+  yarn test
+  ```
+
+- Observer pattern
 
   ```bash
   yarn test:observer
   ```
 
-- publish-subscribe pattern
+- Publish-subscribe pattern
 
   ```bash
   yarn test:pub-sub
@@ -35,7 +41,9 @@ This repository has included 2 kinds of design patterns in the `/packages` direc
 
 ## Acknowledgement
 
-[observer vs pub-sub](https://hackernoon.com/observer-vs-pub-sub-pattern-50d3b27f838c)
+1. [hackernoon - observer vs pub-sub](https://hackernoon.com/observer-vs-pub-sub-pattern-50d3b27f838c)
+1. [stackoverflow - Difference between Observer, Pub/Sub, and Data Binding](https://stackoverflow.com/questions/15594905/difference-between-observer-pub-sub-and-data-binding)
+1. [Addy Osmani - Learning JavaScript Design Patterns](https://addyosmani.com/resources/essentialjsdesignpatterns/book/#observerpatternjavascript)
 
 ## License
 
