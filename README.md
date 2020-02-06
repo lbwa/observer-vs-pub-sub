@@ -1,9 +1,18 @@
-<h1>Observer vs Pub-Sub patter</h1>
+<h1>Observer vs Pub-Sub pattern</h1>
 
 > Differences between [observer pattern][wiki-observer-pattern] and [publish-subscribe pattern][wiki-publish-subscribe-pattern].
 
 [wiki-observer-pattern]: https://en.wikipedia.org/wiki/Observer_pattern
 [wiki-publish-subscribe-pattern]: https://en.wikipedia.org/wiki/Publish%E2%80%93subscribe_pattern
+
+## Test
+
+- observer pattern
+
+  ```bash
+  cd packages/observer
+  yarn test
+  ```
 
 ## Acknowledgement
 

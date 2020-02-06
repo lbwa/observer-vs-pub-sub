@@ -8,6 +8,7 @@
   ],
   "main": "index.js",
   "scripts": {
+    "bootstrap": "npx lerna bootstrap",
     "test": "echo \"no test\" && exit 1"
   },
   "repository": {
